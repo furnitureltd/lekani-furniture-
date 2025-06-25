@@ -2,29 +2,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Lekani Furniture Enterprise</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lekani Furniture</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <h1>Lekani Furniture Enterprise</h1>
-        <p>Blantyre, Malawi | <a href="mailto:Fredrickmalenga001@gmail.com">Fredrickmalenga001@gmail.com</a> | 0992893549</p>
-    </header>
-    <main>
-        <section class="intro">
-            <h2>Welcome to Lekani Furniture</h2>
-            <p>We specialize in high-quality, handcrafted furniture made with precision and care. Serving Blantyre and beyond.</p>
-        </section>
-        <section class="gallery">
-            <h2>Our Products</h2>
-            <img src="sofa.jpg" alt="Sofa" />
-            <img src="table.jpg" alt="Wooden Table" />
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Lekani Furniture Enterprise</p>
-    </footer>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Lekani Furniture</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#pricing">Prices</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Modern. Affordable. Beautiful.</h1>
+    <p>Furniture that fits your lifestyle and your budget.</p>
+    <a href="#products" class="btn">Explore Products</a>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="section">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="sofa.jpg" alt="Sofa" />
+        <p>Elegant Sofa</p>
+      </div>
+      <div class="product-card">
+        <img src="table.jpg" alt="Table" />
+        <p>Stylish Table</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="section">
+    <h2>Pricing</h2>
+    <div class="price-grid">
+      <div class="price-card">
+        <h3>Sofa</h3>
+        <p>MWK 200,000</p>
+      </div>
+      <div class="price-card">
+        <h3>Table</h3>
+        <p>MWK 90,000</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@lekanifurniture.mw</p>
+    <p>Phone: +265 999 123 456</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Lekani Furniture. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
